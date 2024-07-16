@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rtb",
+  "version": "${version}",
+  "name": "RandomTitleReborn",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/RandomTitleReborn"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "cn.ksmcbrigade.rtb.RandomTitleReborn"
+    ]
+  },
+  "mixins": [
+    "rtb.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
